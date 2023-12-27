@@ -13,6 +13,7 @@ import java.util.Optional;
 
 public class CustomersTest extends AbstractTest {
     @Test
+    //надо было пометить тесты @Order, т.к. они у Вас зависимы
     void getCustomers() throws SQLException {
 
         //given
